@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  color: #0e4352;
+}
+
+.text{
+  background-color: #195e54;
+  color: aliceblue;
+}
+
+.border{
+  height: 300px;
+  width: 300px;
+  border: 3px solid rgb(14, 91, 91) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.add{
+  background-color: #474945;
+  color: aliceblue;
+}
+
+table{
+  /* height: 100px; */
+  width: 80%;
+  border: 2px solid rgb(57, 100, 13);
+  margin: auto;
+}
+
+th,td{
+  text-align: center;
+}
+
+.box{
+  background-color: #195e54;
+  color: aliceblue;
+  padding: 10px;
+  gap: 10px;
+}
+
+#yes{
+  color: rgb(201, 190, 190);
+  height: 30px;
+  width: 100%;
+  background-color: #195e54;
+}
+
+header{
+  margin-bottom: 100px;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+#yes1{
+  color: rgb(86, 147, 36);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#yes2{
+  margin-top: 50px;
+  color: #3c707f;
+}
+
+
+
