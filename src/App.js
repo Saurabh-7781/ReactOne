@@ -1,14 +1,14 @@
 
 import './App.css'
-import Bootstraptemplet from './Component/Bootstraptemplet';
-// import ComponentCrud from './Component/ComponentCrud';
+import ControlFrom from './Component/Form/ControlFrom'
+
+
 
 
 function App() {
   return (
     <>
-    {/* <ComponentCrud/> */}
-    <Bootstraptemplet/>
+  <ControlFrom/>
     </>
   );
 }

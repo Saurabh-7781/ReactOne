@@ -17,7 +17,7 @@ export default function ConceptArray() {
 
 
 
-  let b = [11, 22, 33, 44, 55]
+  let b = [10, 20, 30, 40, 50]
 
  
 
@@ -43,14 +43,14 @@ export default function ConceptArray() {
 
   const student =
   {
-    name: "John",
-    age: 20,
-    grade: "A"
+    name: "war",
+    age: 22,
+    grade: "B"
   }
 
 
 
-  const arrs = ["mango", "orange", "mango", "apple", "apple", "pineple", "apple"];
+  const arrs = ["Mahindra Scorpio", "Tata Nexon", "Mahindra Scorpio", "Toyota Fortuner", "Tata Nexon", "Toyota Fortuner", "Tata Nexon"];
   const counts = {};
   arrs.forEach(element => {
     if (counts[element]) {
@@ -121,7 +121,7 @@ export default function ConceptArray() {
       <p>grade:- {student.grade}</p>
 
       <br />
-      <h2>Q10:-  let a= ["mango","orange","mango","apple",apple","pineple","apple"] count how many time elements are include in array.</h2>
+      <h2>Q10:-  let a= ["Mahindra Scorpio","Tata Nexon","Toyota Fortuner","Toyota Fortuner","Tata Nexon","Mahindra Scorpio","Tata Nexon"] count how many time elements are include in array.</h2>
    
       <ul>
           {Object.keys(counts).map((key, index) => (
