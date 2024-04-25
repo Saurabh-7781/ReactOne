@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 
-
-export default function ComponentCrud() {
+export default function SessionStorage() {
     const [items, setItems] = useState(() => {
-        const storedData = localStorage.getItem("itemdata")
+        const storedData = sessionStorage.getItem("itemdata")
         return storedData ? JSON.parse(storedData) : []
     })
     const [inputValue, setInputValue] = useState({
@@ -14,7 +13,7 @@ export default function ComponentCrud() {
     const [editItem, setEditItem] = useState(null)
 
     useEffect(() => {
-        localStorage.setItem("itemdata", JSON.stringify(items))
+        sessionStorage.setItem("itemdata", JSON.stringify(items))
     })
 
     const [sort, setSort] = useState(null)
@@ -77,7 +76,7 @@ export default function ComponentCrud() {
 
     return (
         <>
-            <h1>Local Storager</h1>
+            <h1>Session Storager</h1>
             <div className='border'>
                 <h1>Crud</h1>
 
